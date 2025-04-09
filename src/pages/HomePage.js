@@ -6,8 +6,7 @@ import { useNavigate } from "react-router-dom";
 function HomePage() {
   const navigate = useNavigate();
   const HomePage = () => {
-    return <h1>Welcome to Smart Study Assistant</h1>;
-  };
+   
   return (
     <Container maxWidth="md" sx={{ textAlign: "center", marginTop: "5rem" }}>
       <Typography variant="h3" gutterBottom>
@@ -22,5 +21,6 @@ function HomePage() {
     </Container>
   );
 }
+};
 
 export default HomePage;
