@@ -1,1 +1,1 @@
-# smartstudyassisstant
+# smartstudyassistant
